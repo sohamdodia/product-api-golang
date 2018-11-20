@@ -24,7 +24,7 @@
           * **Requires**: `name, oldPrice, newPrice`
           * **Accepts**: `name, oldPrice, newPrice`
       * `PUT /:id`
-          * Updates a product.
+          * Updates a product
           * **Requires**: No parameters
           * **Accepts**: `name, oldPrice, newPrice`
       * `DELETE /:id/`
