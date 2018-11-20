@@ -1,3 +1,10 @@
+# Techstack
+
+- MongoDB : [mgo](gopkg.in/mgo.v2/bson)
+- Routing: [httprouter](https://github.com/julienschmidt/httprouter)
+- Authentication: [jwt](https://github.com/dgrijalva/jwt-go)
+- Validation: [govalidation](https://github.com/asaskevich/govalidator)
+
 # End Points
 
   * `/signup`
