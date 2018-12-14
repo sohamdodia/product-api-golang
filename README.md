@@ -9,32 +9,32 @@
 
   * `/signup`
       * `POST /`
-          * Creates a new user
+          * Creates a new user.
           * **Requires**: `name, email, password`
           * **Accepts**: `name, email, password`
   * `/signin`
       * `POST /`
-          * User signin
+          * User signin.
           * **Requires**: `email, password`
           * **Accepts**: `email, password`
   * `/product`
       * `GET /`
-          * Get all products
+          * Get all products.
           * **Requires**: No parameters
           * **Accepts**: No parameters
       * `GET /:id`
-          * Get a single product
+          * Get a single product.
           * **Requires**: No parameters
           * **Accepts**: No parameters
       * `POST /`
-          * Creates a new product
+          * Creates a new product.
           * **Requires**: `name, oldPrice, newPrice`
           * **Accepts**: `name, oldPrice, newPrice`
       * `PUT /:id`
-          * Updates a product
+          * Updates a product.
           * **Requires**: No parameters
           * **Accepts**: `name, oldPrice, newPrice`
       * `DELETE /:id/`
-          * Deletes a product
+          * Deletes a product.
           * **Accepts**: No parameters
   
